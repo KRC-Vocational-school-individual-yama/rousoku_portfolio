@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="source\main\app.cpp">
+      <Filter>mains</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libs\scene.cpp">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libs\scenechanger.cpp">
+      <Filter>libs\Scene Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libs\scenemanager.cpp">
+      <Filter>libs\Scene Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libs\testscene.cpp">
+      <Filter>libs\TestScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\main\winmain.cpp">
+      <Filter>mains</Filter>
+    </ClCompile>
+    <ClCompile Include="source\libs\testplayer.cpp">
+      <Filter>libs\TestObject</Filter>
+    </ClCompile>
+    <ClCompile Include="source\save.cpp">
+      <Filter>csvLoadorSave</Filter>
+    </ClCompile>
+    <ClCompile Include="source\titleScene\titleobject.cpp">
+      <Filter>Objects\TitleScene_Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\titleScene\titlescene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gameScene\gamescene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\titleScene\titleui.cpp">
+      <Filter>Objects\TitleScene_Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\titleScene\titlefeed.cpp">
+      <Filter>Objects\TitleScene_Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\gameScene\temp.cpp">
+      <Filter>Objects\GameScene_Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\main\app.h">
+      <Filter>mains</Filter>
+    </ClInclude>
+    <ClInclude Include="source\main\config.h">
+      <Filter>mains</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libs\object.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libs\scene.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libs\scenechanger.h">
+      <Filter>libs\Scene Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libs\scenemanager.h">
+      <Filter>libs\Scene Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libs\testscene.h">
+      <Filter>libs\TestScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libs\testplayer.h">
+      <Filter>libs\TestObject</Filter>
+    </ClInclude>
+    <ClInclude Include="source\save.h">
+      <Filter>csvLoadorSave</Filter>
+    </ClInclude>
+    <ClInclude Include="source\gameScene\gamescene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="source\titleScene\titlescene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="source\titleScene\titleobject.h">
+      <Filter>Objects\TitleScene_Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\libs\myDxLib.h">
+      <Filter>commons</Filter>
+    </ClInclude>
+    <ClInclude Include="source\titleScene\titleui.h">
+      <Filter>Objects\TitleScene_Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\titleScene\titlefeed.h">
+      <Filter>Objects\TitleScene_Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\gameScene\temp.h">
+      <Filter>Objects\GameScene_Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="mains">
+      <UniqueIdentifier>{61e657b5-09cb-41dd-9b2f-2b22b4e1c4be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{32d1f8e8-4ec3-4f70-b237-64c8e07ed6ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\Scene Manager">
+      <UniqueIdentifier>{979f20c5-d0ad-44b1-925c-70552eaa354b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\TestScenes">
+      <UniqueIdentifier>{2706f31c-eba3-458f-844b-309bd1c7d970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\TestObject">
+      <UniqueIdentifier>{7f56394e-989a-40bd-98e8-db76b50e689a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{a086f3e0-521a-46db-bd1c-6813f91fe081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{768e2e3c-9694-4f87-9dde-f772f96706ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\TitleScene_Objects">
+      <UniqueIdentifier>{aabfa36f-c3ac-4e99-8161-ba197e0d98e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="csvLoadorSave">
+      <UniqueIdentifier>{2f57c28f-e52c-477f-aed2-1caa80b62847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="commons">
+      <UniqueIdentifier>{329017d1-db29-430d-9a5b-fe6cbb42d72e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\GameScene_Objects">
+      <UniqueIdentifier>{a91253af-f6b5-49d1-b5f8-3566e5fc4197}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
